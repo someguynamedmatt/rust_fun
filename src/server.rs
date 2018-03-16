@@ -2,7 +2,6 @@ use std::net::{TcpStream, TcpListener};
 use std::io::{Read, Write};
 use std::thread;
 
-
 fn handle_read(mut stream: &TcpStream) {
     let mut buf = [0u8 ;4096];
     match stream.read(&mut buf) {

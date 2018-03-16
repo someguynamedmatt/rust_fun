@@ -3,3 +3,6 @@
 name = "server"
 version = "0.0.1"
 authors = ["someguynamedmatt"]
+[[bin]]
+name = "server"
+path = "src/server.rs"
